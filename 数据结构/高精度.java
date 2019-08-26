@@ -18,6 +18,7 @@ a.doubleValue()                 //将BigDecimal对象中的值以双精度数返
 a.floatValue()                    // 将BigDecimal对象中的值以单精度数返回。
 a.longValue()                     //将BigDecimal对象中的值以长整数返回。
 a.intValue()                       //将BigDecimal对象中的值以整数返回。
+a.remainder(); //取模
 a.compareTo(b) //比较 a = b return 0; // a > b return 1; // a < b return -1;
 a.shiftRight(n) // 右移n位
 Integer.toString(num, 2); // (num,back)把num当做10进制的数转成back进制的st(back <= 35).
